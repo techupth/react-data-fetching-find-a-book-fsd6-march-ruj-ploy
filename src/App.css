@@ -2,3 +2,8 @@
   font-size: x-large;
   margin-left: 20px;
 }
+.input {
+  width: 40%;
+  height: 20px;
+  font-size: 1rem;
+}
