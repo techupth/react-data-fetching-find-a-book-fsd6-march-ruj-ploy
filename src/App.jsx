@@ -29,8 +29,8 @@ function App() {
         onChange={(e) => setSearch(e.target.value)}
       />
       <ul>
-        {bookList.map((item) => {
-          return <li>{item.volumeInfo.title}</li>;
+        {bookList.map((item, index) => {
+          return <li key={index}>{item.volumeInfo.title}</li>;
         })}
       </ul>
     </div>
